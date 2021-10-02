@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from 'components/ui/Button';
-import * as Styled from './styles';
+import * as Styled from '../templates/Contact/styles';
 
 const FormControls = () => (
   <Styled.ButtonContainer>

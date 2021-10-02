@@ -1,6 +1,6 @@
 import React from 'react';
 import { Textarea, Input, Label } from 'theme-ui';
-import * as Styled from './styles';
+import * as Styled from '../templates/Contact/styles';
 
 const LabeledInput = ({ as = Input, label, ...props }) => {
   const name = label.toLowerCase();

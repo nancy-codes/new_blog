@@ -9,7 +9,7 @@ import FormInputs from './form-inputs';
 import FormControls from './form-controls';
 import SuccessMessage from './success-message';
 import ErrorMessage from './error-message';
-import * as Styled from './styles';
+import * as Styled from '../templates/Contact/styles';
 
 const Form = () => {
   const { markdownRemark } = useStaticQuery(graphql`
