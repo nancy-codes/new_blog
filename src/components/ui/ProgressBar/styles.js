@@ -19,7 +19,7 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.h3`
-  ${tw`font-semibold`};
+  ${tw`font-semibold text-center`};
 `;
 
 export const Percentage = styled.h3`

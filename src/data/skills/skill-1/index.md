@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'HTML'
-percentage: 60
+title: 'Ruby & Ruby on Rails'
+percentage: 80
 ---

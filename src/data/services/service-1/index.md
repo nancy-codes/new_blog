@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Web Design'
+title: 'Microservices & API'
 icon: 'laptop-code'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+description: 'Build microservices and APIs that follow best practices, including clean interface and test driven development'
 ---

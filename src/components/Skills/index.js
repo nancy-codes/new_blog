@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Container from 'components/ui/Container';
 import TitleSection from 'components/ui/TitleSection';
 import ProgressBar from 'components/ui/ProgressBar';
+import Button from 'components/ui/Button';
 
 import * as Styled from './styles';
 
@@ -50,6 +51,9 @@ const Skills = () => {
           );
         })}
       </Styled.Skills>
+      <Styled.Link href="https://github.com/nancy-lovo" rel="noreferrer noopener" target="_blank">
+        <Button>View GitHub</Button>
+      </Styled.Link>
     </Container>
   );
 };

@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Digital Marketing'
-icon: 'bullhorn'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+title: 'Documentation'
+icon: 'pencil-alt'
+description: 'Inspired by phemonenal documentation that brings joy to developers. Aim to create a well-documented codebase likewise.'
 ---

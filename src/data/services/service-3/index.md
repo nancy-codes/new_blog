@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Copywrite'
-icon: 'edit'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+title: 'AWS'
+icon: 'cloud'
+description: 'Design and manage systems and infrastructure to ensure scalability and high availability'
 ---

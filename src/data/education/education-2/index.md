@@ -1,9 +1,9 @@
 ---
 category: 'education'
-university: 'Stanford University'
+university: 'University College London'
 degree: 'Master of Science'
-startDate: 'Oct 2008'
-endDate: 'Jul 2010'
+startDate: 'Sep 2016'
+endDate: 'Sep 2017'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborist.
+Language Sciences with a specialization in Neuroscience

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby.JS`,
-    description: `Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.`,
-    author: `Saimir Kapaj`
+    title: `nancy.lee`,
+    description: `learning by writing`,
+    author: `Nancy Lee`
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -46,7 +46,7 @@ module.exports = {
         background_color: `#ed64a6`,
         theme_color: `#ed64a6`,
         display: `minimal-ui`,
-        icon: `src/assets/images/gatsby-icon.png`
+        icon: `src/assets/images/flower-icon.png`
       }
     },
     `gatsby-plugin-offline`,

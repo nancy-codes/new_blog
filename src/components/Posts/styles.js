@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
 export const Posts = styled.div`
-  ${tw`w-full flex flex-wrap`};
+  ${tw`w-full`};
 `;
 
 export const Post = styled.div`
-  ${tw`w-full sm:w-1/2 p-3`};
+  ${tw`w-full p-3`};
 `;
 
 export const Card = styled.div`
