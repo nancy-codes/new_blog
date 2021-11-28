@@ -7,6 +7,7 @@ const FormatHtml = ({ content }) => (
     dangerouslySetInnerHTML={{
       __html: content
     }}
+    style={{ maxWidth: '100%' }}
   />
 );
 

@@ -13,17 +13,18 @@ To ensure that a callback runs always asynchronously, `process.nextTick` API can
 
 Here is an example: compare the two scripts.
 
+<br />
 
-1\. **Inconsistent**
+### 1. **Inconsistent**
 
 - Depending on the count value, the call back can run sync or async.
 
 ```js
-const assert = require("assert");
+const assert = require('assert');
 
 function foo(count, callback) {
   if (count <= 0) {
-    return callback(new TypeError("count > 0"));
+    return callback(new TypeError('count > 0'));
   }
   setTimeout(callback, count);
 }
@@ -34,24 +35,24 @@ foo(0, () => {
 });
 bar = true;
 console.log(bar);
-
-
 ```
 
 Console.log
 
-```
+```sh
 AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
 ```
 
-2. Consistent with process.nextTick
+<br />
 
-```js
-const assert = require("assert");
+### 2. **Consistent with process.nextTick**
+
+```js{5}
+const assert = require('assert');
 
 function foo(count, callback) {
   if (count <= 0) {
-    return process.nextTick(() => callback(new TypeError("count > 0")));
+    return process.nextTick(() => callback(new TypeError('count > 0')));
   }
   setTimeout(callback, count);
 }
@@ -62,11 +63,10 @@ foo(0, () => {
 });
 bar = true;
 console.log(bar);
-
 ```
 
 Console.log
 
-```
+```sh
 true
 ```
