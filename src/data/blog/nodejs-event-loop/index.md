@@ -11,6 +11,7 @@ published: true
 The event loop is a single-threaded loop designed to handle all the scheduling of your application code. By scheduling, it means that the event loop manages a queue of events that are used to trigger callbacks. As opposed to the common misunderstanding which says that the EL is part of the v8 engine, the event loop uses the JavaScript V8 engines to execute JavaScript code.
 
 ![nodejs-event-loop-phases](./cover.jpg)
+_source: https://www.voidcanvas.com/nodejs-event-loop_
 
 The event loop is comprised of **several phases**, each with its own queue. The order of execution is shown above: Timer => Pending io callbacks => Idle, prepare (internal) => Poll => Check => Close callbacks. In each phase, node executes tasks until either the queue is exhausted or the system-dependent max limit is hit.
 

@@ -41,8 +41,8 @@ const Posts = () => {
     }
   `);
 
-  const sectionTitle = markdownRemark.frontmatter;
-  const posts = allMarkdownRemark.edges;
+const sectionTitle = markdownRemark.frontmatter;
+const posts = allMarkdownRemark.edges;
 
   return (
     <Container section>
