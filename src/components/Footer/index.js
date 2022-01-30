@@ -8,7 +8,7 @@ const Footer = () => (
   <Styled.Footer>
     <Container>
       <Styled.Links>
-        <Styled.Link href="https://github.com/nancy-lovo" rel="noreferrer noopener" target="_blank">
+        <Styled.Link href="https://github.com/nancyel" rel="noreferrer noopener" target="_blank">
           GitHub
         </Styled.Link>
         <Styled.Link

@@ -51,7 +51,7 @@ const Skills = () => {
           );
         })}
       </Styled.Skills>
-      <Styled.Link href="https://github.com/nancy-lovo" rel="noreferrer noopener" target="_blank">
+      <Styled.Link href="https://github.com/nancyel" rel="noreferrer noopener" target="_blank">
         <Button>View GitHub</Button>
       </Styled.Link>
     </Container>
